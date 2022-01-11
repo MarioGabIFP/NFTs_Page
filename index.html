@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!-- Determina el tipo de lenguaje de etiquetas a utilizar -->
+<html lang="en"> <!-- Etiqueta de apertura de archivo HTML, lo iniciamos con lang="en"-->
+<!-- Cabecera de la página, contiene datos sobre la página para que esta funcione correctamente, esta no se visualizara-->
+    <head>
+        <meta charset="UTF-8"> <!-- especificamos el tipo de codificación a usar en toda la página -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- especificamos los navegadores compatibles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- indicamos que la página tendra la resolución de la pantalla en la que se está visualizando en el momento -->
+        <meta name="author" content="Mario Gabriel Núñez Alcázar de Velasco"> <!-- Nombre del autor de la página -->
+        <title>NFT List</title> <!-- Título de la página (se visualizara en la pestaña del navegador) -->
+        <link rel="stylesheet" type="text/css" href="./res/css/index.css"><!-- Cargamos la hoja de estilos especifica para index.html-->
+        <link rel="stylesheet" type="text/css" href="./res/css/resposive.css"><!-- Cargamos la Hoja de estilos especifica para el diseño responsive-->
+        <link rel="stylesheet" type="text/css" href="./res/css/styles.css"> <!-- Cargamos la hoja de estilos generica para la página -->
+        <link rel="shortcut icon" type="image/icon" href="res/img/ico/adu0u-lr747-001.ico"> <!-- Cargamos el icono de la página -->
+        <link href="./res/fontawesome/css/all.css" rel="stylesheet">
+    </head>
+<!-- Contenido de la página -->
+    <body>
+        <div class="header">
+            <!-- Cabecera visible de la página, contiene información relevanvte sobre la página -->
+            <header>
+                <!-- logotipo -->
+                <img class="logo" src="./res/img/png/fatcatxrpl-3.png">
+            </header>
+            <!-- Menú de navegación de la página -->
+            <nav>
+                <ul>
+                    <li><a href="misPosts.html">OpenSea</a></li> <!-- link que lleva a mis posts-->
+                    <li><a href="nuevoPost.html">Fancy Bears Metaverse</a></li> <!-- link que lleva a nuevo post-->
+                </ul>
+            </nav>
+        </div>
+        <div class="flexbox">
+            <!-- Contenido principal -->
+            <article class="flexbox-article">
+                <div class="content">
+                    <!-- Seccion dentro del contenido principal -->
+                    <section>
+                        <!-- primer bloque de artículos -->
+                        <div class="block">
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/61b2015694354767a29f8ce4_avatar_bear.png">
+                                </div>
+                            </a>
+                            <!-- artículo dos -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/svg/opensea.svg">
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+                
+            </article>
+            <!-- Barra lateral -->
+            <aside>
+                <!-- banner que redirecciona a la página de opensea -->
+                <a href="https://opensea.io/"><iframe scrolling="no" src="https://opensea.io" frameborder="0"></iframe></a>
+            </aside>
+        </div>
+        <!-- Pie de página -->
+        <footer>
+            <p>© NFT's List | 2021</p>
+        </footer>
+    </body>
+</html>

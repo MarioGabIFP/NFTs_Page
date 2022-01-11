@@ -1,0 +1,38 @@
+/* Modifica el estilo ciando el tamaño de pantalla es inferior a 376 pixeles*/
+@media screen and (max-width: 376px) {
+    /*aplicamos este estilo sobre todos los parrafos de la página*/
+    * p{
+        font-size: 40%; /* cambiamos el tamaño del texto al 40% con respecto al tamaño de la pantalla*/
+    }
+
+    /*aplicamos este estilo sobre el nav*/
+    nav{
+        margin-left: 10% !important; /* aplicamos un margen desde la izquierda de un 10% con respecto a la pamtalla*/
+        margin-top: -14% !important; /* aplicamos un margen desde arriba de un -14% con respecto a la pamtalla*/
+    }
+    
+    /* Estilo aplicado sobre las li de la lista del nav */
+    nav ul li{
+        display: inline-flex !important; /* hacemos que el contenido de la lista se despliegue de forma horizontal*/
+        font-size: 50% !important; /* cambiamos el tamaño del texto al 40% con respecto al tamaño de la pantalla*/
+        padding-right: 10px !important; /* añadimos un padding desde la derecha de 10 pixeles*/
+        padding-left: 10px !important; /* añadimos un padding desde la izquierda de 50 pixeles*/
+    }
+
+   /* estilo aplicado sobre el contenido del div con la clase content */
+    .content{
+        margin-top: 2%; /* aplicamos un margen desde arriba de un 2% con respecto a la pamtalla*/
+        margin-left: 0% !important; /* aplicamos un margen desde la izquierda de un 0% con respecto a la pamtalla*/
+        margin-right: 0% !important; /* aplicamos un margen desde la derecha de un 0% con respecto a la pamtalla*/
+    }
+
+    /* estilo aplicado sobre aside */
+    aside{
+        display: none; /*ocultamos el elemento*/
+    }
+
+    /* estilo aplicado sobre la lista del footer */
+    footer ul{
+        display: none;/*ocultamos el elemento*/
+    }
+}

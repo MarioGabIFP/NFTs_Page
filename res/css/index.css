@@ -1,0 +1,27 @@
+/*aplicamos este estilo sobre todos los elementos que lleven la clase "block"*/
+.block{
+    display: inline-flex; /* hacemos que el contenido de la lista se despliegue de forma horizontal*/
+}
+
+/*aplicamos este estilo sobre todos los div contenidos en los elementos que lleven la clase "block"*/
+.block div{
+    border: solid; /* añadimos un borde sólido */
+    display: inline-flex;/* hacemos que el contenido de la lista se despliegue de forma horizontal*/
+    font-size: 150%; /* cambiamos el tamaño del texto al 150% con respecto al tamaño de la pantalla*/
+    box-shadow: 2px 2px black; /* aplicamos sombra a la derecha y a la parte inferior indicando que esta a de ser de color negro*/
+    margin: 4px 4px 8px 4px; /*aplicamos margenes de 4px en todos los lados excepto a la parte inferior que le indicamos que debe ser de 8px */
+}
+
+/*aplicamos este estilo sobre todas las imagenes contenidas en los elementos que lleven la clase "block"*/
+.block img{
+    width: 60%; /* hacemos que el ancho del contenido sea un 60% con respecto a la pantalla*/
+    height: 55%;/* hacemos que el alto del contenido sea un 55% con respecto a la pantalla*/
+    padding: 5%;/* agregamos un padding a todos los lados del bloque*/
+}
+
+/*aplicamos este estilo sobre todos los elementos que lleven la clase "art"*/
+.art{
+    background-color: #8073c550;/* cambiamos el color del fondo*/
+    display: block !important;/*indicamos que se muestre como bloque con respecto al resto de la página*/
+    text-align: center; /* alineamos el texto al centro */
+}
