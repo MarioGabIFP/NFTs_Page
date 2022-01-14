@@ -1,13 +1,12 @@
 /* Estilo aplicado sobre el body */
 body{
-    background-color: #8d67df; /* aplicamos color al fondo */
+    background-color: #bfb6ec50; /* aplicamos color al fondo */
 }
 
 /* Estilo aplicado sobre el Nav */
 nav{
     float: left; /* hacemos que el nav se hubique a la izquierda por defecto*/
-    margin-left: 60%; /* aplicamos un margen desde la izquierda de un 30% con respecto a la pamtalla*/
-    margin-top: -15%; /* aplicamos un margen desde arriba de un -6.5% con respecto a la pamtalla*/
+    margin-left: 30%; /* aplicamos un margen desde la izquierda de un 30% con respecto a la pamtalla*/    
 }
 
 /* Estilo aplicado sobre las li de la lista del nav */
@@ -37,6 +36,12 @@ nav ul li{
 }
 /* fin de dividimos el aside y el section en dos columnas*/
 
+.header-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 /* Estilo aplicado sobre el iframe del aside */
 aside iframe{
     height: 70%;
@@ -53,7 +58,7 @@ article{
 
 /* estilo aplicado sobre el footer */
 footer{
-    background-color: #6e38e6; /* añadimos color al fondo */
+    background-color: transparent; /* añadimos color al fondo */
     position: fixed; /* le indicamos que se situe siempre abajo en la pantalla */
     bottom: 0%; /* le indicamos que guarde un margen con respecto abajo de la pantalla de 0% */
     left: 0%; /* le indicamos que guarde un margen con respecto a la izquierda de la pantalla de 0% */
@@ -74,7 +79,7 @@ footer ul li{
 /* Estilo aplicado sobre el contenido de la lista del footer */
 /* y sobre el contenido de la lista cuando pasa el ratón por encima */
 footer ul li:hover, nav ul li:hover{
-    background-color: #8073c5; /* añadimos color al fondo */
+    background-color: #8073c550; /* añadimos color al fondo */
     transition-duration: 0.5s; /* hacemos que la transicion al estado del estilo aplicado anteriormente dure medio segundo */
 }
 
@@ -96,17 +101,16 @@ a:link, a:visited, a:active {
 
 /* estilo aplicado sobre el logotipo */
 .logo{
-    width: 15%; /* hacemos que el ancho del contenido sea un 15% con respecto a la pantalla*/
-    height: 15%; /* hacemos que el alto del contenido sea un 15% con respecto a la pantalla*/
+    width: 5%; /* hacemos que el ancho del contenido sea un 15% con respecto a la pantalla*/
+    height: 5%; /* hacemos que el alto del contenido sea un 15% con respecto a la pantalla*/
     margin-bottom: -4px;
 }
 
 /* estilo aplicado sobre el contenido del div que engloba Nav y Header */
 .header{
-    background-color: #6e38e6; /* cambiamos el color del fondo */
+    background-color: transparent; /* cambiamos el color del fondo */
     position: sticky; /* hacemos que el contenido esté fijo en la parte de arriba de la pantalla a pesar del scroll*/
     top: 0px; /* le indicamos que guarde un margen con respecto a la parte superior de la pantalla de 0% */
-    margin-top: -1%; /* aplicamos un margen desde arriba de un -1% con respecto a la pamtalla*/
     z-index: 1; /* cambiamos la profundidad, indicamos que el elemento se muestre encima de los demas */
 }
 

@@ -7,8 +7,7 @@
 
     /*aplicamos este estilo sobre el nav*/
     nav{
-        margin-left: 10% !important; /* aplicamos un margen desde la izquierda de un 10% con respecto a la pamtalla*/
-        margin-top: -14% !important; /* aplicamos un margen desde arriba de un -14% con respecto a la pamtalla*/
+        margin-left: 16% !important; /* aplicamos un margen desde la izquierda de un 10% con respecto a la pamtalla*/
     }
     
     /* Estilo aplicado sobre las li de la lista del nav */

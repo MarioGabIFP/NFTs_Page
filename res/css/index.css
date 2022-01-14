@@ -8,7 +8,7 @@
     border: solid; /* añadimos un borde sólido */
     display: inline-flex;/* hacemos que el contenido de la lista se despliegue de forma horizontal*/
     font-size: 150%; /* cambiamos el tamaño del texto al 150% con respecto al tamaño de la pantalla*/
-    box-shadow: 2px 2px black; /* aplicamos sombra a la derecha y a la parte inferior indicando que esta a de ser de color negro*/
+    box-shadow: 2px 2px burlywood; /* aplicamos sombra a la derecha y a la parte inferior indicando que esta a de ser de color negro*/
     margin: 4px 4px 8px 4px; /*aplicamos margenes de 4px en todos los lados excepto a la parte inferior que le indicamos que debe ser de 8px */
 }
 
