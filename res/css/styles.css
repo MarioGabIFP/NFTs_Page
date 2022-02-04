@@ -3,6 +3,27 @@ body{
     background-color: #bfb6ec50; /* aplicamos color al fondo */
 }
 
+/* estilo aplicado sobre el contenido del div que engloba Nav y Header */
+.header{
+    background-color: transparent; /* cambiamos el color del fondo */
+    position: sticky; /* hacemos que el contenido esté fijo en la parte de arriba de la pantalla a pesar del scroll*/
+    top: 0px; /* le indicamos que guarde un margen con respecto a la parte superior de la pantalla de 0% */
+    z-index: 1; /* cambiamos la profundidad, indicamos que el elemento se muestre encima de los demas */
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* estilo aplicado sobre el logotipo */
+.logo{
+    width: 5%; /* hacemos que el ancho del contenido sea un 15% con respecto a la pantalla*/
+    height: 5%; /* hacemos que el alto del contenido sea un 15% con respecto a la pantalla*/
+    margin-bottom: -4px;
+}
+
 /* Estilo aplicado sobre el Nav */
 nav{
     float: left; /* hacemos que el nav se hubique a la izquierda por defecto*/
@@ -28,6 +49,11 @@ nav ul li{
     width: 100%;
 }
 
+/* estilo aplicado sobre el article */
+article{
+    padding-bottom: 7%; /* añadimos un padding desde abajo de 7% con respecto al tamaño de pantalla*/
+}
+
 .flexbox-article{
     display: flex;
     justify-content: center;
@@ -36,24 +62,19 @@ nav ul li{
 }
 /* fin de dividimos el aside y el section en dos columnas*/
 
-.header-img{
+/* estilo aplicado sobre el contenido del div con la clase content */
+.content{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 /* Estilo aplicado sobre el iframe del aside */
-aside iframe{
-    height: 70%;
-    overflow: hidden;
+#iframeNFT{
+    overflow: scroll;
     margin-left: -120%;
     margin-top: 10%;
     width: 212%;
-}
-
-/* estilo aplicado sobre el article */
-article{
-    padding-bottom: 7%; /* añadimos un padding desde abajo de 7% con respecto al tamaño de pantalla*/
+    height: 79%;
 }
 
 /* estilo aplicado sobre el footer */
@@ -97,26 +118,4 @@ footer p{
 a:link, a:visited, a:active {
     color: black; /* cambiamos el color del texto */
     text-decoration: none; /* quitamos toda la decoracion del texto que viene por defecto*/
-}
-
-/* estilo aplicado sobre el logotipo */
-.logo{
-    width: 5%; /* hacemos que el ancho del contenido sea un 15% con respecto a la pantalla*/
-    height: 5%; /* hacemos que el alto del contenido sea un 15% con respecto a la pantalla*/
-    margin-bottom: -4px;
-}
-
-/* estilo aplicado sobre el contenido del div que engloba Nav y Header */
-.header{
-    background-color: transparent; /* cambiamos el color del fondo */
-    position: sticky; /* hacemos que el contenido esté fijo en la parte de arriba de la pantalla a pesar del scroll*/
-    top: 0px; /* le indicamos que guarde un margen con respecto a la parte superior de la pantalla de 0% */
-    z-index: 1; /* cambiamos la profundidad, indicamos que el elemento se muestre encima de los demas */
-}
-
-/* estilo aplicado sobre el contenido del div con la clase content */
-.content{
-    margin-top: 2%; /* aplicamos un margen desde arriba de un 2% con respecto a la pamtalla*/
-    margin-left: 10%; /* aplicamos un margen desde la izquierda de un 10% con respecto a la pamtalla*/
-    margin-right: 25%; /* aplicamos un margen desde la derecha de un 25% con respecto a la pamtalla*/
 }
