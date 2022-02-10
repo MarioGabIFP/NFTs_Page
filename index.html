@@ -22,10 +22,10 @@
                 <img class="logo" src="./res/img/png/logoVar.png">
             </header>
             <!-- Menú de navegación de la página -->
-            <nav>
+            <nav id="nav">
                 <ul>
-                    <li><i class="fa-solid fa-shop"></i></li> <!-- link que lleva a mis posts-->
-                    <li><a href="https://www.fancybearsmetaverse.com">Fancy Bears Metaverse</a></li> <!-- link que lleva a nuevo post-->
+                    <a id="login" href="#"><li>Login</li></a> <!-- link que lleva a nuevo post-->
+                    <a id="register" href="#"><li>Register</li></a> <!-- link que lleva a nuevo post-->
                 </ul>
             </nav>
         </div>
@@ -34,7 +34,7 @@
             <article class="flexbox-article">
                 <div class="content">
                     <!-- Seccion dentro del contenido principal -->
-                    <section>
+                    <section id="frontSec">
                         <!-- primer bloque de artículos -->
                         <div class="block">
                             <!-- artículo 1 -->
@@ -43,7 +43,70 @@
                                     <img src="./res/img/png/fancyBears.png">
                                 </div>
                             </a>
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears2.png">
+                                </div>
+                            </a>
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears.png">
+                                </div>
+                            </a>
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears.png">
+                                </div>
+                            </a>
                         </div>
+                        <!-- primer bloque de artículos -->
+                        <div class="block">
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears.png">
+                                </div>
+                            </a>
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears2.png">
+                                </div>
+                            </a>
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears.png">
+                                </div>
+                            </a>
+                            <!-- artículo 1 -->
+                            <a href="#">
+                                <div class="art">
+                                    <img src="./res/img/png/fancyBears.png">
+                                </div>
+                            </a>
+                        </div>
+                    </section>
+                    <section id="loginSec" class="unset">
+                        <form>
+                            <input type="text" name="user" id="user" placeholder="Usuario o correo electronico"><br>
+                            <input type="password" name="pass" id="pass" placeholder="Contraseña"><br>
+                            <input type="submit" value="Entrar" id="SubmitIn"><br>
+                        </form>
+                    </section>
+                    <section id="registerSec" class="unset">
+                        <form>
+                            <input type="text" required name="name" id="name" placeholder="Nombre"><br>
+                            <input type="text" required name="apel" id="apel" placeholder="Apellidos"><br>
+                            <input type="email" required name="email" id="email" placeholder="Email"><br>
+                            <input type="text" required name="user" id="uuser" placeholder="Usuario"><br>
+                            <input type="password" required name="pass" id="upass" placeholder="Contraseña"><br>
+                            <input type="password" required name="npass" id="npass" placeholder="Repite la contraseña"><br>
+                            <input type="submit" value="Registrarse" id="SubmitReg"><br>
+                        </form>
                     </section>
                 </div>
             </article>
@@ -53,4 +116,5 @@
             <p>© NFT's List | 2021</p>
         </footer>
     </body>
+    <script src="./res/js/functions.js"></script>
 </html>

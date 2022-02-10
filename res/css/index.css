@@ -8,8 +8,6 @@
     border: solid; /* añadimos un borde sólido */
     display: inline-flex;/* hacemos que el contenido de la lista se despliegue de forma horizontal*/
     font-size: 150%; /* cambiamos el tamaño del texto al 150% con respecto al tamaño de la pantalla*/
-    box-shadow: 2px 2px burlywood; /* aplicamos sombra a la derecha y a la parte inferior indicando que esta a de ser de color negro*/
-    margin: 4px 4px 8px 4px; /*aplicamos margenes de 4px en todos los lados excepto a la parte inferior que le indicamos que debe ser de 8px */
 }
 
 /*aplicamos este estilo sobre todas las imagenes contenidas en los elementos que lleven la clase "block"*/
@@ -24,4 +22,22 @@
     background-color: #8073c550;/* cambiamos el color del fondo*/
     display: block !important;/*indicamos que se muestre como bloque con respecto al resto de la página*/
     text-align: center; /* alineamos el texto al centro */
+    box-shadow: 2px 2px burlywood; /* aplicamos sombra a la derecha y a la parte inferior indicando que esta a de ser de color negro*/
+    margin: 4px 4px 8px 4px; /*aplicamos margenes de 4px en todos los lados excepto a la parte inferior que le indicamos que debe ser de 8px */
+}
+
+/*aplicamos este estilo sobre todos los elementos que lleven la clase "art"*/
+.art_2{
+    background-color: #8073c550;/* cambiamos el color del fondo*/
+    display: block !important;/*indicamos que se muestre como bloque con respecto al resto de la página*/
+    text-align: center; /* alineamos el texto al centro */
+    margin: 6px 2px 10px 2px; /*aplicamos margenes de 4px en todos los lados excepto a la parte inferior que le indicamos que debe ser de 8px */
+}
+
+* {
+    box-sizing:border-box
+}
+
+.unset {
+  display: none;
 }
