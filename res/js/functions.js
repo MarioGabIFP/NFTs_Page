@@ -9,7 +9,10 @@ let blocks = document.getElementsByClassName("block");
 for (let x = 0; x < blocks.length; x++) {
     blockPrep(blocks[x]);
 }
-
+/**
+ * 
+ * @param {*} arrBl 
+ */
 function blockPrep(arrBl) {
     let arts = arrBl.getElementsByClassName("art");
 
